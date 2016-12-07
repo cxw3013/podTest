@@ -1,0 +1,34 @@
+{
+  "name": "CWPayModule",
+  "version": "0.1.0",
+  "summary": "A short description of CWPayModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/CWPayModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "cxw": "cxw3013@163.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/CWPayModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CWPayModule/Classes/**/*",
+  "resource_bundles": {
+    "CWPayModule": [
+      "CWPayModule/Assets/*.png"
+    ]
+  },
+  "public_header_files": "Pod/Classes/**/*.h",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ]
+  }
+}

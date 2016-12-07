@@ -1,0 +1,6 @@
+framework module CWPayModule {
+  umbrella header "CWPayModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

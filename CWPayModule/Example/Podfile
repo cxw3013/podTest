@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CWPayModule_Example' do
+  pod 'CWPayModule', :path => '../'
+
+  target 'CWPayModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
