@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'CWPayModule/Classes/**/*'
   
-  s.resource_bundles = {
-     'CWPayModule' => ['CWPayModule/Assets/*.png']
-   }
+  #s.resource_bundles = {
+  #   'CWPayModule' => ['CWPayModule/Assets/*.png']
+  # }
 
    s.public_header_files = 'CWPayModule/Classes/**/*.h'
    s.frameworks = 'UIKit'
